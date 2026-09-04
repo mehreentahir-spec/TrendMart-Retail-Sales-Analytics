@@ -1,36 +1,46 @@
 # 📊 TrendMart Retail Sales Analytics
 
-An end-to-end **Retail Sales Analytics and Business Intelligence project** built using multiple datasets and data analysis tools. The project combines **4 CSV datasets**, Excel, Python, Jupyter Notebook, and Python libraries to clean, analyze, visualize, and transform raw data into an interactive retail analytics dashboard.
+## 🌐 Live Dashboard
+
+👉 [**View TrendMart Interactive Dashboard**](https://mehreentahir-spec.github.io/TrendMart-Retail-Sales-Analytics/)
+
+An end-to-end **Retail Sales Analytics and Business Intelligence project** built using **4 CSV datasets, Microsoft Excel, Python, Jupyter Notebook, and Python libraries** to clean, transform, analyze, and visualize retail data through an interactive dashboard.
+
+---
 
 ## 📌 Project Overview
 
-This project analyzes retail sales, customer, product, and marketing data to generate meaningful business insights.
+This project analyzes retail **sales, product, customer, and marketing data** to generate meaningful business insights.
 
-The workflow starts with **4 raw CSV datasets**, which are prepared and analyzed using **Excel and Python/Jupyter Notebook**. After data cleaning, transformation, and analysis, the processed data is used to create an interactive **TrendMart Retail Analytics Dashboard**.
+The project starts with **4 CSV datasets**, which are prepared and analyzed using **Excel and Python/Jupyter Notebook**. Data cleaning, transformation, exploratory analysis, and calculations are performed before the results are used to create the final **TrendMart Retail Analytics Dashboard**.
 
-## 🔄 Project Workflow
+### 🔄 Project Workflow
 
-**4 CSV Datasets → Data Cleaning & Preparation → Excel → Python/Jupyter Notebook → Data Analysis → Visualizations & Insights → Interactive HTML Dashboard**
+**4 CSV Datasets → Excel & Data Preparation → Python/Jupyter Notebook → Data Cleaning & Transformation → Analysis → Visualization → Interactive HTML Dashboard**
+
+---
 
 ## 🗂️ Datasets
 
-The project uses **4 CSV files** containing data related to:
+The project uses **4 CSV datasets** covering different areas of the retail business:
 
-* 🛒 Retail / Sales Transactions
-* 📦 Products
-* 👥 Customers
-* 📢 Marketing Campaigns
+* 🛒 **Sales / Retail Transactions**
+* 📦 **Products**
+* 👥 **Customers**
+* 📢 **Marketing Campaigns**
 
-These datasets were combined and analyzed to provide a broader view of TrendMart's retail performance.
+The datasets are analyzed together to provide a broader view of **sales performance, products, customers, regions, and marketing activities**.
+
+---
 
 ## 🛠️ Tools & Technologies
 
-### Data Preparation
+### 📊 Data Preparation
 
 * Microsoft Excel
-* CSV datasets
+* CSV
 
-### Data Analysis
+### 🐍 Data Analysis
 
 * Python
 * Jupyter Notebook
@@ -38,20 +48,28 @@ These datasets were combined and analyzed to provide a broader view of TrendMart
 * NumPy
 * Scikit-learn
 
-### Data Visualization
+### 📈 Visualization & Dashboard
 
 * Python visualization libraries
-* Interactive HTML/CSS/JavaScript dashboard
+* HTML
+* CSS
+* JavaScript
+* Interactive charts and KPIs
 
-### Version Control
+### 🔗 Version Control & Deployment
 
 * GitHub
+* GitHub Pages
 
-## 📊 Dashboard Features
+---
 
-The final interactive dashboard contains multiple analytical sections:
+## 📊 Dashboard Sections
 
-### Executive Dashboard
+The final interactive dashboard is divided into four major sections.
+
+### 🏠 Executive Dashboard
+
+Provides an overall view of retail performance, including:
 
 * Net Revenue
 * Gross Profit
@@ -61,61 +79,99 @@ The final interactive dashboard contains multiple analytical sections:
 * Category Performance
 * Sales Channel Mix
 * Regional Performance
+* Business Insights
 
-### Product Analysis
+### 📦 Product Analysis
+
+Analyzes product and category performance through:
 
 * Product profitability
 * Category margins
 * Revenue performance
 * Product-level analysis
+* Profitability matrix
+* Top-performing products
 
-### Customer Analysis
+### 👥 Customer Analysis
+
+Provides insights into the customer base, including:
 
 * Customer segments
 * Customer value
 * Country distribution
-* New vs Returning Customers
-* Customer retention insights
+* New vs. Returning Customers
+* Customer retention
+* Customer segment performance
 
-### Marketing Analysis
+### 📢 Marketing Analysis
 
-* Marketing spend
+Evaluates marketing campaign performance using:
+
+* Marketing Spend
 * Impressions
-* CTR
+* Click-Through Rate (CTR)
 * Conversions
-* Channel performance
-* Regional marketing efficiency
+* Channel Performance
+* Regional Marketing Efficiency
+* Campaign insights
 
-## 🔍 Key Analysis
+---
 
-The project focuses on answering business questions such as:
+## 💡 Business Recommendations
 
-* Which products and categories generate the most revenue?
-* Which categories have better profit margins?
-* Which sales channels perform best?
-* Which regions contribute the most to revenue?
-* How valuable are different customer segments?
-* What is the proportion of new vs returning customers?
-* Which marketing channels generate better engagement?
-* How efficiently are marketing campaigns performing?
+Based on the analysis areas covered in the dashboard, the following recommendations can support better retail decision-making:
 
-## 💡 Project Goal
+### 📈 1. Focus on High-Performing Categories
 
-The main goal is to demonstrate an **end-to-end data analytics workflow**, from raw datasets to a business-ready interactive dashboard.
+Prioritize products and categories that demonstrate strong revenue and profitability while reviewing underperforming categories for improvement.
 
-This project demonstrates skills in:
+### 💰 2. Improve Profitability
 
-* Data cleaning
-* Data preprocessing
-* Data transformation
-* Exploratory data analysis
-* Business analytics
-* Data visualization
-* KPI analysis
-* Customer analysis
-* Product profitability analysis
-* Marketing performance analysis
-* Dashboard development
+Monitor product margins, discounts, and costs together to identify opportunities to improve overall profitability.
+
+### 🛒 3. Optimize Sales Channels
+
+Compare performance across the Online Store, Mobile App, Marketplace, and Retail Partner channels to allocate resources toward the most effective channels.
+
+### 👥 4. Strengthen Customer Retention
+
+Use customer segmentation and new-vs-returning customer analysis to develop strategies that encourage repeat purchases and increase customer value.
+
+### 🌍 5. Prioritize High-Value Regions
+
+Use regional sales and marketing performance to identify stronger markets and make more informed regional investment decisions.
+
+### 📢 6. Optimize Marketing Spend
+
+Compare marketing spend, CTR, impressions, and conversions across channels to identify opportunities for more efficient campaign allocation.
+
+### 📊 7. Use KPI Monitoring for Decision-Making
+
+Regularly monitor revenue, profit, orders, average order value, customer metrics, and marketing KPIs to identify trends and respond quickly to changes in performance.
+
+---
+
+## 🔍 Key Skills Demonstrated
+
+This project demonstrates an end-to-end data analytics workflow, including:
+
+* Data Collection
+* Data Cleaning
+* Data Preprocessing
+* Data Transformation
+* Exploratory Data Analysis (EDA)
+* Data Analysis
+* Business Intelligence
+* KPI Analysis
+* Product Analysis
+* Customer Analysis
+* Marketing Analysis
+* Data Visualization
+* Dashboard Development
+* Business Insights
+* Business Recommendations
+
+---
 
 ## 📁 Project Structure
 
@@ -140,16 +196,46 @@ TrendMart-Retail-Sales-Analytics/
 └── README.md
 ```
 
+---
+
 ## 🚀 How to Explore the Project
 
-1. Download or clone this repository.
-2. Open the Jupyter Notebook to explore the data cleaning and analysis process.
-3. Review the CSV datasets used in the analysis.
-4. Open the Excel file to review data preparation.
-5. Open `TrendMart_Retail_Analytics.html` in a browser to explore the interactive dashboard.
+### 1. Clone the Repository
 
-## 🎯 Outcome
+```bash
+git clone https://github.com/mehreentahir-spec/TrendMart-Retail-Sales-Analytics.git
+```
 
-The project transforms multiple raw datasets into a structured analytical solution that provides a **single interactive view of sales, products, customers, regions, and marketing performance**.
+### 2. Explore the Data
 
-> **TrendMart is a fictional retail brand created for this analytics project.**
+Open the CSV files to understand the raw datasets used in the project.
+
+### 3. Review Data Preparation
+
+Open the Excel workbook to review the data preparation and initial analysis.
+
+### 4. Explore the Python Analysis
+
+Open the Jupyter Notebook to view the Python-based data cleaning, transformation, analysis, and visualization process.
+
+### 5. View the Dashboard
+
+Open the HTML dashboard in a browser or visit the live version:
+
+👉 [**TrendMart Interactive Dashboard**](https://mehreentahir-spec.github.io/TrendMart-Retail-Sales-Analytics/)
+
+---
+
+## 🎯 Project Outcome
+
+The project transforms multiple raw retail datasets into a structured analytical solution and an interactive business dashboard.
+
+It provides a **single view of sales, products, customers, regions, and marketing performance**, helping turn raw data into meaningful business insights and actionable recommendations.
+
+---
+
+## 👩‍💻 Project Type
+
+**Data Analytics | Retail Business Intelligence | Data Visualization | Dashboard Development**
+
+> **Note:** TrendMart is a fictional retail brand created for this analytics project.
